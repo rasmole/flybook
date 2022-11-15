@@ -1,6 +1,7 @@
 <?php
 require 'database.php';
 
+
 if($_GET["API_KEY"]=="Flight booker 1.2 plus edition"){
     switch($_GET["action"]){
         case "get":Get();break;
